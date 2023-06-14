@@ -17,7 +17,7 @@ export default function MainForm() {
     const [openSuccess, setOpenSuccess] = useState(false);
     const [successValue, setSuccessValue] = useState(null);
     
-    let HOST = 'http://localhost:8000';
+    let HOST = 'http://3.83.44.25//api';
     
     const saveFile = async () => {
         const a = document.createElement('a');
